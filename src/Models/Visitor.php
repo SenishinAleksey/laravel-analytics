@@ -13,7 +13,7 @@ class Visitor extends Model
         'category',
         'value',
         'route',
-        'ip_adress',
+        'ip_address',
     ];
 
     public function scopeByCategory($query, $category)
