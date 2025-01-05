@@ -1,6 +1,6 @@
 <?php
 
-namespace Sashagm\Analytics\Models;
+namespace SenishinAleksey\LaravelAnalytics\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;

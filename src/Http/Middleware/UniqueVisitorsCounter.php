@@ -1,10 +1,10 @@
 <?php
 
-namespace Sashagm\Analytics\Http\Middleware;
+namespace SenishinAleksey\LaravelAnalytics\Http\Middleware;
 
 
 use Closure;
-use Sashagm\Analytics\Traits\UniqueVisitorsCounterTrait;
+use SenishinAleksey\LaravelAnalytics\Traits\UniqueVisitorsCounterTrait;
 
 class UniqueVisitorsCounter
 {

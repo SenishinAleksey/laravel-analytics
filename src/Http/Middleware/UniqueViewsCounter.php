@@ -1,9 +1,9 @@
 <?php
 
-namespace Sashagm\Analytics\Http\Middleware;
+namespace SenishinAleksey\LaravelAnalytics\Http\Middleware;
 
 use Closure;
-use Sashagm\Analytics\Traits\UniqueViewsCounterTrait;
+use SenishinAleksey\LaravelAnalytics\Traits\UniqueViewsCounterTrait;
 
 class UniqueViewsCounter
 {
@@ -12,7 +12,7 @@ class UniqueViewsCounter
     public function handle($request, Closure $next)
     {
         $this->run($request);
-        
+
         return $next($request);
     }
 }

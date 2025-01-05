@@ -1,14 +1,14 @@
 <?php
 
-namespace  Sashagm\Analytics\Traits;
+namespace  SenishinAleksey\LaravelAnalytics\Traits;
 
 use Closure;
 use Exception;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Log;
-use Sashagm\Analytics\Models\Visitor;
+use SenishinAleksey\LaravelAnalytics\Models\Visitor;
 use Illuminate\Support\Facades\Cookie;
-use Sashagm\Analytics\Models\Statistic;
+use SenishinAleksey\LaravelAnalytics\Models\Statistic;
 
 trait UniqueViewsCounterTrait
 {

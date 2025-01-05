@@ -1,10 +1,10 @@
 <?php
 
-namespace  Sashagm\Analytics\Traits;
+namespace  SenishinAleksey\LaravelAnalytics\Traits;
 
 use Exception;
-use Sashagm\Analytics\Http\Middleware\UniqueViewsCounter;
-use Sashagm\Analytics\Http\Middleware\UniqueVisitorsCounter;
+use SenishinAleksey\LaravelAnalytics\Http\Middleware\UniqueViewsCounter;
+use SenishinAleksey\LaravelAnalytics\Http\Middleware\UniqueVisitorsCounter;
 
 
 trait BootTrait
@@ -17,4 +17,3 @@ trait BootTrait
     }
 
 }
-

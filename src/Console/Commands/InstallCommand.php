@@ -1,10 +1,10 @@
 <?php
 
-namespace Sashagm\Analytics\Console\Commands;
+namespace SenishinAleksey\LaravelAnalytics\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
-use Sashagm\Analytics\Providers\AnalyticsServiceProvider;
+use SenishinAleksey\LaravelAnalytics\Providers\AnalyticsServiceProvider;
 
 
 class InstallCommand extends Command
@@ -31,7 +31,7 @@ class InstallCommand extends Command
         $this->components->info('Установка пакета...');
         $this->install();
         $this->components->info('Установка завершена!');
-        
+
     }
 
     protected function install(): void

@@ -1,11 +1,11 @@
 <?php
 
-namespace Sashagm\Analytics\Providers;
+namespace SenishinAleksey\LaravelAnalytics\Providers;
 
 use Exception;
 use Illuminate\Support\ServiceProvider;
-use Sashagm\Analytics\Console\Commands\InstallCommand;
-use Sashagm\Analytics\Traits\BootTrait;
+use SenishinAleksey\LaravelAnalytics\Console\Commands\InstallCommand;
+use SenishinAleksey\LaravelAnalytics\Traits\BootTrait;
 
 class AnalyticsServiceProvider extends ServiceProvider
 {

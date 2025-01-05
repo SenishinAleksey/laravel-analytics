@@ -1,6 +1,6 @@
 <?php
 
-namespace Sashagm\Analytics\Models;
+namespace SenishinAleksey\LaravelAnalytics\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

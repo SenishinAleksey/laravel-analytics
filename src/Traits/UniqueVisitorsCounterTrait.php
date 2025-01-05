@@ -1,10 +1,10 @@
 <?php
 
-namespace  Sashagm\Analytics\Traits;
+namespace  SenishinAleksey\LaravelAnalytics\Traits;
 
 use Exception;
 use Closure;
-use Sashagm\Analytics\Models\Visitor;
+use SenishinAleksey\LaravelAnalytics\Models\Visitor;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Cookie;
 

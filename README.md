@@ -2,11 +2,15 @@
 
 <p align="center">
 
-<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/packagist/dt/sashagm/analytics" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/packagist/v/sashagm/analytics" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/packagist/l/sashagm/analytics" alt="License"></a>
-<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/github/languages/code-size/sashagm/analytics" alt="Code size"></a>
-<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/packagist/stars/sashagm/analytics" alt="Code size"></a>
+[//]: # (<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/packagist/dt/sashagm/analytics" alt="Total Downloads"></a>)
+
+[//]: # (<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/packagist/v/sashagm/analytics" alt="Latest Stable Version"></a>)
+
+[//]: # (<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/packagist/l/sashagm/analytics" alt="License"></a>)
+
+[//]: # (<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/github/languages/code-size/sashagm/analytics" alt="Code size"></a>)
+
+[//]: # (<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/packagist/stars/sashagm/analytics" alt="Code size"></a>)
 
 [![PHP Version](https://img.shields.io/badge/PHP-%2B8-blue)](https://www.php.net/)
 [![Laravel Version](https://img.shields.io/badge/Laravel-%2B10-red)](https://laravel.com/)
@@ -15,7 +19,7 @@
 
 ## Laravel Analytics Unique Visitors and Views Middleware
 
-Наш пакет предоставляет middleware для подсчета уникальных просмотров и посетителей на страницах вашего Laravel приложения. Он может быть полезен для веб-мастеров, которые хотят отслеживать действия ваших пользователей на своем сайте. Middleware будут полностью контролировать любые запросы к серверу.
+Пакет предоставляет middleware для подсчета уникальных просмотров и посетителей на страницах вашего Laravel приложения. Он может быть полезен для веб-мастеров, которые хотят отслеживать действия ваших пользователей на своем сайте. Middleware будут полностью контролировать любые запросы к серверу.
 
 ### Оглавление:
 
@@ -42,8 +46,8 @@
 
 Для установки пакета необходимо выполнить команды:
 
-- composer require sashagm/analytics
-- php artisan analytics:install
+[//]: # (- composer require sashagm/analytics)
+[//]: # (- php artisan analytics:install)
 
 #### Использование
 
@@ -137,12 +141,6 @@ foreach ($statistics as $statistic) {
 
 - `php artisan analytics:install` - Данная команда установит все необходимые файлы пакета.
 
-#### Тестирование
-
-Вы можете запустить тесты для этого пакета, используя PHPUnit. Для этого выполните команду:
-
-- `composer test`
-
 #### Лицензия
 
-Analytics - это программное обеспечение с открытым исходным кодом, лицензированное по [MIT license](LICENSE.md).
+Laravel Analytics - это программное обеспечение с открытым исходным кодом, лицензированное по [MIT license](LICENSE.md).

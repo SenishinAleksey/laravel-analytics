@@ -1,6 +1,6 @@
 <?php
 
-namespace  Sashagm\Analytics\Traits;
+namespace  SenishinAleksey\LaravelAnalytics\Traits;
 
 use Illuminate\Support\Facades\Log;
 
@@ -14,7 +14,7 @@ trait BuildsLoggers
 
 
         $view =  config('analytics.logger_method');
-        
+
         switch ($view) {
             case true:
 
@@ -31,18 +31,17 @@ trait BuildsLoggers
                     'level' => 'debug',
                 ]);
                 $logger->$method($mess);
-        
+
                 break;
 
             default:
-                
+
                 break;
         }
 
-        
+
     }
 
 
 
 }
-
