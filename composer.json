@@ -1,5 +1,5 @@
 {
-    "name": "senishinaleksey/laravel-analytics",
+    "name": "senishinaleksey/laravel-visits-analytics",
     "description": "Laravel Analytics Unique Visitors and Views Middleware ",
     "minimum-stability": "stable",
     "license": "MIT",
