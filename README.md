@@ -2,18 +2,14 @@
 
 <p align="center">
 
-<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/packagist/dt/senishinaleksey/laravel-visits-analytics" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/packagist/dt/senishinaleksey/laravel-visits-analytics?style=for-the-badge" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/packagist/v/senishinaleksey/laravel-visits-analytics?style=for-the-badge" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/packagist/l/senishinaleksey/laravel-visits-analytics?style=for-the-badge" alt="License"></a>
+<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/github/languages/code-size/SenishinAleksey/laravel-analytics?style=for-the-badge" alt="Code size"></a>
+<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/packagist/stars/senishinaleksey/laravel-visits-analytics?style=for-the-badge" alt="Code size"></a>
 
-<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/packagist/v/senishinaleksey/laravel-visits-analytics" alt="Latest Stable Version"></a>
-
-<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/packagist/l/senishinaleksey/laravel-visits-analytics" alt="License"></a>
-
-<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/github/languages/code-size/SenishinAleksey/laravel-analytics" alt="Code size"></a>
-
-<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/packagist/stars/senishinaleksey/laravel-visits-analytics" alt="Code size"></a>
-
-[![PHP Version](https://img.shields.io/badge/PHP-%2B8-blue)](https://www.php.net/)
-[![Laravel Version](https://img.shields.io/badge/Laravel-%2B10-red)](https://laravel.com/)
+[![PHP Version](https://img.shields.io/badge/PHP-%2B8-blue?style=for-the-badge)](https://www.php.net/)
+[![Laravel Version](https://img.shields.io/badge/Laravel-%2B10-red?style=for-the-badge)](https://laravel.com/)
 
 </p>
 
