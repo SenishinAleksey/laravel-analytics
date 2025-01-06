@@ -2,7 +2,6 @@
 
 namespace SenishinAleksey\LaravelAnalytics\Providers;
 
-use Exception;
 use Illuminate\Support\ServiceProvider;
 use SenishinAleksey\LaravelAnalytics\Console\Commands\InstallCommand;
 use SenishinAleksey\LaravelAnalytics\Traits\BootTrait;

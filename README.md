@@ -2,15 +2,15 @@
 
 <p align="center">
 
-[//]: # (<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/packagist/dt/sashagm/analytics" alt="Total Downloads"></a>)
+<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/packagist/dt/senishinaleksey/laravel-visits-analytics" alt="Total Downloads"></a>
 
-[//]: # (<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/packagist/v/sashagm/analytics" alt="Latest Stable Version"></a>)
+<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/packagist/v/senishinaleksey/laravel-visits-analytics" alt="Latest Stable Version"></a>
 
-[//]: # (<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/packagist/l/sashagm/analytics" alt="License"></a>)
+<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/packagist/l/senishinaleksey/laravel-visits-analytics" alt="License"></a>
 
-[//]: # (<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/github/languages/code-size/sashagm/analytics" alt="Code size"></a>)
+<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/github/languages/code-size/SenishinAleksey/laravel-analytics" alt="Code size"></a>
 
-[//]: # (<a href="https://packagist.org/packages/sashagm/analytics"><img src="https://img.shields.io/packagist/stars/sashagm/analytics" alt="Code size"></a>)
+<a href="https://packagist.org/packages/senishinaleksey/laravel-visits-analytics"><img src="https://img.shields.io/packagist/stars/senishinaleksey/laravel-visits-analytics" alt="Code size"></a>
 
 [![PHP Version](https://img.shields.io/badge/PHP-%2B8-blue)](https://www.php.net/)
 [![Laravel Version](https://img.shields.io/badge/Laravel-%2B10-red)](https://laravel.com/)
@@ -46,8 +46,8 @@
 
 Для установки пакета необходимо выполнить команды:
 
-[//]: # (- composer require sashagm/analytics)
-[//]: # (- php artisan analytics:install)
+- composer require senishinaleksey/laravel-visits-analytics
+- php artisan analytics:install
 
 #### Использование
 
@@ -134,12 +134,6 @@ foreach ($statistics as $statistic) {
 
 Чтобы понимать и различать пользователей от поисковых роботов вы можете указать разные префиксы.
 Просто измените файл `.env` параметры `UNIQUE_PROVIDER_USER='User'` и `UNIQUE_PROVIDER_BOTS='Bots'`
-
-#### Дополнительные возможности
-
-Наш пакет предоставляет ряд дополнительных возможностей, которые могут быть полезны при работе с темами:
-
-- `php artisan analytics:install` - Данная команда установит все необходимые файлы пакета.
 
 #### Лицензия
 

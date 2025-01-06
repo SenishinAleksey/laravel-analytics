@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SenishinAlexey\\LaravelAnalytics\\Providers\\AnalyticsServiceProvider"
+                "SenishinAleksey\\LaravelAnalytics\\Providers\\AnalyticsServiceProvider"
             ]
         }
     }
