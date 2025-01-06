@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SenishinAlexey\\LaravelAnalytics\\": "src"
+            "SenishinAleksey\\LaravelAnalytics\\": "src"
         }
     },
     "extra": {
